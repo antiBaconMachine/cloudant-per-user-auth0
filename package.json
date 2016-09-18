@@ -1,0 +1,21 @@
+{
+  "name": "cloudant-per-user-auth0",
+  "version": "0.1.0",
+  "description": "Express reverse proxy for Cloudant db-per-user with Auth0",
+  "scripts": {
+    "deploy": "node ./scripts/deploy.js",
+    "start": "node app.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "cascada.io",
+  "license": "ISC",
+  "dependencies": {
+    "cors": "^2.8.1",
+    "express": "^4.14.0",
+    "express-jwt": "^5.0.0",
+    "request": "^2.75.0"
+  },
+  "devDependencies": {
+    "shelljs": "^0.7.4"
+  }
+}
